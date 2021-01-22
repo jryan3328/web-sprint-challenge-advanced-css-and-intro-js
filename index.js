@@ -232,7 +232,7 @@ There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is current
 
 function getArtistByIndex(array, index) {
  
-  return artists `The artist at index ${index} is ${this.name}`
+  return `{The artist at index ${index} is ${array.index[name]}`;
   
 }  
 
@@ -246,15 +246,9 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(array, string){
-  for(let i = 0; 0 < array.length; i++){
-    if(array[i].includes(string)){
-      return array[i];
-    }
-  }
+function get20s(){
+
 }
-
-
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:
@@ -266,8 +260,8 @@ function get20s(array, string){
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
 function removeArtist(array, index){
-  artists.splice([])
-   
+  array.splice(index, 1);
+  return array.length;
 }
    
 
@@ -287,9 +281,9 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist( id, name, years, genre, nationality, bio){
+function addArtist(array)
     artists.push({id: 20, name: 'Jonathan Ryan', years: '1986-2021',genre: 'Web Design',nationality: 'USA',bio: "I'm going to have to flex this unit. I'm struggling so hard.  I really wish I was grasping this better."})
-    return addArtist(artists);
+    return array;
   }
 
   
@@ -302,8 +296,8 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array){
-  const newArray = [];
-  newArray.push()
+  for(if array[years][1] === [9] && array[years][8]);
+  return (lotsOfArt);
 }
 
 
